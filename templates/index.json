@@ -11,14 +11,6 @@
   "sections": {
     "hero": {
       "type": "rich-text",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "full_width": true,
-        "padding_top": 28,
-        "padding_bottom": 28
-      },
       "blocks": {
         "subtext_top": {
           "type": "text",
@@ -30,100 +22,114 @@
           "type": "heading",
           "settings": {
             "heading": "OUTFITORY",
-            "heading_size": "hx"
+            "heading_size": "h1"
           }
         }
       },
-      "block_order": ["subtext_top", "heading"]
+      "block_order": [
+        "subtext_top",
+        "heading"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
     },
     "categories": {
       "type": "multicolumn",
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "portrait",
-        "columns_desktop": 6,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "3",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      },
       "blocks": {
         "cat_dresses": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/photo-1595777457583-95e059d581b8.jpg",
             "title": "DRESSES",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/dresses"
+            "link": "shopify://collections/dresses"
           }
         },
         "cat_pants": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/photo-1583496661160-fb5886a0aaaa.jpg",
             "title": "PANTS",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/pants"
+            "link": "shopify://collections/pants"
           }
         },
         "cat_skirts": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/photo-1548624313-0396c75e4b1a.jpg",
             "title": "SKIRTS",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/skirts"
+            "link": "shopify://collections/skirts"
           }
         },
         "cat_sets": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/photo-1591047139829-d91aecb6caea.jpg",
             "title": "SETS",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/sets"
+            "link": "shopify://collections/sets"
           }
         },
         "cat_jackets": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/photo-1591047139829-d91aecb6caea.jpg",
             "title": "JACKETS",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/jackets"
+            "link": "shopify://collections/jackets"
           }
         },
         "cat_shirts": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/photo-1572804013309-59a88b7e92f1.jpg",
             "title": "SHIRTS",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/shirts"
+            "link": "shopify://collections/shirts"
           }
         }
       },
-      "block_order": ["cat_dresses", "cat_pants", "cat_skirts", "cat_sets", "cat_jackets", "cat_shirts"]
+      "block_order": [
+        "cat_dresses",
+        "cat_pants",
+        "cat_skirts",
+        "cat_sets",
+        "cat_jackets",
+        "cat_shirts"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "3",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     },
     "collage_1": {
       "type": "collage",
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "none",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      },
       "blocks": {
         "col_product1": {
           "type": "product",
@@ -147,18 +153,24 @@
           }
         }
       },
-      "block_order": ["col_product1", "col_product2", "col_product3"]
+      "block_order": [
+        "col_product1",
+        "col_product2",
+        "col_product3"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     },
     "marquee": {
       "type": "rich-text",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "full_width": true,
-        "padding_top": 16,
-        "padding_bottom": 16
-      },
       "blocks": {
         "marquee_text": {
           "type": "text",
@@ -167,47 +179,48 @@
           }
         }
       },
-      "block_order": ["marquee_text"]
+      "block_order": [
+        "marquee_text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
+        "collection": "",
+        "products_to_show": 8,
         "title": "NEW ARRIVALS",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "",
-        "products_to_show": 8,
         "columns_desktop": 4,
+        "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
         "color_scheme": "scheme-1",
         "image_ratio": "portrait",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "quick_add": "none",
         "columns_mobile": "2",
-        "enable_quick_add": true,
+        "swipe_on_mobile": false,
         "padding_top": 52,
         "padding_bottom": 52
       }
     },
     "collage_2": {
       "type": "collage",
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "desktop_layout": "right",
-        "mobile_layout": "collage",
-        "card_styles": "none",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      },
       "blocks": {
         "col2_product1": {
           "type": "product",
@@ -231,18 +244,24 @@
           }
         }
       },
-      "block_order": ["col2_product1", "col2_product2", "col2_product3"]
+      "block_order": [
+        "col2_product1",
+        "col2_product2",
+        "col2_product3"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     },
     "brand_banner": {
       "type": "rich-text",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-4",
-        "full_width": true,
-        "padding_top": 80,
-        "padding_bottom": 80
-      },
       "blocks": {
         "brand_heading": {
           "type": "heading",
@@ -261,21 +280,30 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP ALL",
-            "button_link": "shopify:\/\/collections\/all",
-            "button_style_secondary": true
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
-      "block_order": ["brand_heading", "brand_text", "brand_btn"]
+      "block_order": [
+        "brand_heading",
+        "brand_text",
+        "brand_btn"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     },
     "newsletter": {
       "type": "newsletter",
-      "settings": {
-        "color_scheme": "scheme-3",
-        "full_width": true,
-        "padding_top": 44,
-        "padding_bottom": 44
-      },
       "blocks": {
         "nl_heading": {
           "type": "heading",
@@ -295,8 +323,27 @@
           "settings": {}
         }
       },
-      "block_order": ["nl_heading", "nl_text", "nl_form"]
+      "block_order": [
+        "nl_heading",
+        "nl_text",
+        "nl_form"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 44
+      }
     }
   },
-  "order": ["hero", "categories", "collage_1", "marquee", "featured_collection", "collage_2", "brand_banner", "newsletter"]
+  "order": [
+    "hero",
+    "categories",
+    "collage_1",
+    "marquee",
+    "featured_collection",
+    "collage_2",
+    "brand_banner",
+    "newsletter"
+  ]
 }
