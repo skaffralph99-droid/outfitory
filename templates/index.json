@@ -1,18 +1,14 @@
 {
   "sections": {
     "hero_banner": {
-      "type": "image-banner",
+      "type": "rich-text",
       "settings": {
-        "image_overlay_opacity": 30,
-        "image_height": "large",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
       },
       "blocks": {
         "heading": {
@@ -22,26 +18,22 @@
             "heading_size": "h0"
           }
         },
-        "subheading": {
+        "subtext": {
           "type": "text",
           "settings": {
-            "text": "<p>Fashion for the bold at heart. Build your capsule collection.</p>",
-            "text_style": "subtitle"
+            "text": "<p>Fashion for the bold at heart. Build your capsule collection.</p>"
           }
         },
         "button": {
-          "type": "buttons",
+          "type": "button",
           "settings": {
-            "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false
           }
         }
       },
-      "block_order": ["heading", "subheading", "button"]
+      "block_order": ["heading", "subtext", "button"]
     },
     "collection_list": {
       "type": "collection-list",
@@ -53,7 +45,9 @@
         "color_scheme": "scheme-1",
         "show_view_all": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": false
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 52
       },
       "blocks": {
         "col_dresses": {
@@ -83,62 +77,32 @@
       },
       "block_order": ["col_dresses", "col_pants", "col_skirts", "col_sets", "col_jackets", "col_shirts"]
     },
-    "featured_products": {
-      "type": "featured-collection",
+    "brand_text": {
+      "type": "rich-text",
       "settings": {
-        "title": "NEW ARRIVALS",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "scheme-1",
-        "image_ratio": "portrait",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "enable_quick_add": true
-      }
-    },
-    "brand_banner": {
-      "type": "image-banner",
-      "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "full_width": false,
+        "padding_top": 60,
+        "padding_bottom": 60
       },
       "blocks": {
-        "brand_text": {
+        "heading2": {
           "type": "heading",
           "settings": {
             "heading": "DRESS BOLD. STAY MINIMAL.",
             "heading_size": "h1"
           }
         },
-        "brand_sub": {
+        "text2": {
           "type": "text",
           "settings": {
-            "text": "<p>Curated pieces that speak louder than trends. Quality over quantity, always.</p>",
-            "text_style": "subtitle"
+            "text": "<p>Curated pieces that speak louder than trends. Quality over quantity, always.</p>"
           }
         }
       },
-      "block_order": ["brand_text", "brand_sub"]
+      "block_order": ["heading2", "text2"]
     },
     "newsletter": {
       "type": "newsletter",
@@ -170,5 +134,5 @@
       "block_order": ["nl_heading", "nl_text", "nl_form"]
     }
   },
-  "order": ["hero_banner", "collection_list", "featured_products", "brand_banner", "newsletter"]
+  "order": ["hero_banner", "collection_list", "brand_text", "newsletter"]
 }
