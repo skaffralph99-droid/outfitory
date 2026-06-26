@@ -101,6 +101,15 @@
             "link_label": "",
             "link": "shopify://collections/shirts"
           }
+        ,"cat_sweets": {
+          "type": "column",
+          "settings": {
+            "title": "SWEETS",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/sweets"
+          }
+        }
         }
       },
       "block_order": [
