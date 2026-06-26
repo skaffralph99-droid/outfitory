@@ -9,100 +9,156 @@
  */
 {
   "sections": {
-    "slideshow": {
-      "type": "slideshow",
+    "hero": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 28
+      },
       "blocks": {
-        "slide_1": {
-          "type": "slide",
+        "subtext_top": {
+          "type": "text",
           "settings": {
-            "image": "shopify://shop_images/photo-1591047139829-d91aecb6caea.jpg",
-            "image_overlay_opacity": 20,
-            "heading": "NEW SEASON",
-            "heading_size": "h0",
-            "subheading": "Curated pieces for the modern woman",
-            "button_label": "SHOP NOW",
-            "link": "shopify://collections/all",
-            "button_style_secondary": false,
-            "show_text_box": false,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": "scheme-3"
+            "text": "<p>Fashion for the bold at heart. Build your capsule collection and allow it to fit combo pieces to create a total look of quality pieces.</p>"
           }
         },
-        "slide_2": {
-          "type": "slide",
+        "heading": {
+          "type": "heading",
           "settings": {
-            "image": "shopify://shop_images/photo-1548624313-0396c75e4b1a.jpg",
-            "image_overlay_opacity": 20,
-            "heading": "DRESS BOLD",
-            "heading_size": "h0",
-            "subheading": "Fashion for the bold at heart",
-            "button_label": "VIEW COLLECTION",
-            "link": "shopify://collections/dresses",
-            "button_style_secondary": false,
-            "show_text_box": false,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": "scheme-4"
-          }
-        },
-        "slide_AF6Ufe": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/photo-1583496661160-fb5886a0aaaa.jpg",
-            "image_overlay_opacity": 0,
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": true,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": "scheme-1"
-          }
-        },
-        "slide_3": {
-          "type": "slide",
-          "settings": {
-            "image_overlay_opacity": 20,
-            "heading": "STAY MINIMAL",
-            "heading_size": "h0",
-            "subheading": "Quality over quantity, always",
-            "button_label": "EXPLORE",
-            "link": "shopify://collections/all",
-            "button_style_secondary": false,
-            "show_text_box": false,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": "scheme-3"
+            "heading": "OUTFITORY",
+            "heading_size": "hx"
           }
         }
       },
-      "block_order": [
-        "slide_1",
-        "slide_2",
-        "slide_AF6Ufe",
-        "slide_3"
-      ],
+      "block_order": ["subtext_top", "heading"]
+    },
+    "categories": {
+      "type": "multicolumn",
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "large",
-        "slider_visual": "counter",
-        "auto_rotate": true,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": false,
-        "accessibility_info": "Slideshow"
-      }
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "3",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      },
+      "blocks": {
+        "cat_dresses": {
+          "type": "column",
+          "settings": {
+            "title": "DRESSES",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/dresses"
+          }
+        },
+        "cat_pants": {
+          "type": "column",
+          "settings": {
+            "title": "PANTS",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/pants"
+          }
+        },
+        "cat_skirts": {
+          "type": "column",
+          "settings": {
+            "title": "SKIRTS",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/skirts"
+          }
+        },
+        "cat_sets": {
+          "type": "column",
+          "settings": {
+            "title": "SETS",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/sets"
+          }
+        },
+        "cat_jackets": {
+          "type": "column",
+          "settings": {
+            "title": "JACKETS",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/jackets"
+          }
+        },
+        "cat_shirts": {
+          "type": "column",
+          "settings": {
+            "title": "SHIRTS",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/shirts"
+          }
+        }
+      },
+      "block_order": ["cat_dresses", "cat_pants", "cat_skirts", "cat_sets", "cat_jackets", "cat_shirts"]
+    },
+    "collage_1": {
+      "type": "collage",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      },
+      "blocks": {
+        "col_product1": {
+          "type": "product",
+          "settings": {
+            "product": "noir-midi-dress",
+            "second_image": false
+          }
+        },
+        "col_product2": {
+          "type": "product",
+          "settings": {
+            "product": "oversized-blazer",
+            "second_image": false
+          }
+        },
+        "col_product3": {
+          "type": "product",
+          "settings": {
+            "product": "wide-leg-trousers",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": ["col_product1", "col_product2", "col_product3"]
     },
     "marquee": {
       "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      },
       "blocks": {
         "marquee_text": {
           "type": "text",
@@ -111,249 +167,74 @@
           }
         }
       },
-      "block_order": [
-        "marquee_text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
-    "collection_list": {
-      "type": "collection-list",
-      "blocks": {
-        "col_dresses": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "dresses"
-          }
-        },
-        "col_pants": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "pants"
-          }
-        },
-        "col_skirts": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "skirts"
-          }
-        },
-        "col_sets": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sets"
-          }
-        },
-        "col_jackets": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "jackets"
-          }
-        },
-        "col_shirts": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "shirts"
-          }
-        }
-      },
-      "block_order": [
-        "col_dresses",
-        "col_pants",
-        "col_skirts",
-        "col_sets",
-        "col_jackets",
-        "col_shirts"
-      ],
-      "settings": {
-        "title": "SHOP BY CATEGORY",
-        "heading_size": "h1",
-        "image_ratio": "portrait",
-        "columns_desktop": 3,
-        "color_scheme": "scheme-1",
-        "show_view_all": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "features": {
-      "type": "multicolumn",
-      "blocks": {
-        "f1": {
-          "type": "column",
-          "settings": {
-            "title": "FREE SHIPPING",
-            "text": "<p>On all orders over $100</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "f2": {
-          "type": "column",
-          "settings": {
-            "title": "CASH ON DELIVERY",
-            "text": "<p>Pay when you receive</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "f3": {
-          "type": "column",
-          "settings": {
-            "title": "PREMIUM QUALITY",
-            "text": "<p>Curated fabrics & finishes</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "f4": {
-          "type": "column",
-          "settings": {
-            "title": "EASY RETURNS",
-            "text": "<p>Hassle-free exchanges</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "f1",
-        "f2",
-        "f3",
-        "f4"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "color_scheme": "scheme-3",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 44
-      }
-    },
-    "brand_story": {
-      "type": "image-with-text",
-      "blocks": {
-        "bs_heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "THE OUTFITORY WAY",
-            "heading_size": "h1"
-          }
-        },
-        "bs_text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We believe in building a wardrobe, not chasing trends. Every piece in our collection is designed to mix, match, and last. From structured jackets to flowing dresses — each item earns its place in your closet.</p>",
-            "text_style": "body"
-          }
-        },
-        "bs_button": {
-          "type": "button",
-          "settings": {
-            "button_label": "OUR STORY",
-            "button_link": "",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "bs_heading",
-        "bs_text",
-        "bs_button"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "center",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-1",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
+      "block_order": ["marquee_text"]
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "collection": "",
-        "products_to_show": 8,
-        "title": "BESTSELLERS",
+        "title": "NEW ARRIVALS",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
+        "collection": "",
+        "products_to_show": 8,
         "columns_desktop": 4,
-        "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "scheme-1",
         "image_ratio": "portrait",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "none",
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "enable_quick_add": true,
         "padding_top": 52,
         "padding_bottom": 52
       }
     },
-    "cta_banner": {
-      "type": "rich-text",
+    "collage_2": {
+      "type": "collage",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      },
       "blocks": {
-        "cta_heading": {
-          "type": "heading",
+        "col2_product1": {
+          "type": "product",
           "settings": {
-            "heading": "YOUR STYLE. YOUR STORY.",
-            "heading_size": "h0"
+            "product": "satin-slip-dress",
+            "second_image": false
           }
         },
-        "cta_text": {
-          "type": "text",
+        "col2_product2": {
+          "type": "product",
           "settings": {
-            "text": "<p>Discover pieces that define you.</p>"
+            "product": "power-blazer-set",
+            "second_image": false
           }
         },
-        "cta_button": {
-          "type": "button",
+        "col2_product3": {
+          "type": "product",
           "settings": {
-            "button_label": "SHOP ALL",
-            "button_link": "shopify://collections/all",
-            "button_style_secondary": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "product": "pleated-midi-skirt",
+            "second_image": false
           }
         }
       },
-      "block_order": [
-        "cta_heading",
-        "cta_text",
-        "cta_button"
-      ],
+      "block_order": ["col2_product1", "col2_product2", "col2_product3"]
+    },
+    "brand_banner": {
+      "type": "rich-text",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -361,10 +242,40 @@
         "full_width": true,
         "padding_top": 80,
         "padding_bottom": 80
-      }
+      },
+      "blocks": {
+        "brand_heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "YOUR STYLE. YOUR STORY.",
+            "heading_size": "hx"
+          }
+        },
+        "brand_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Curated pieces that speak louder than trends.</p>"
+          }
+        },
+        "brand_btn": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP ALL",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": ["brand_heading", "brand_text", "brand_btn"]
     },
     "newsletter": {
       "type": "newsletter",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 44
+      },
       "blocks": {
         "nl_heading": {
           "type": "heading",
@@ -384,27 +295,8 @@
           "settings": {}
         }
       },
-      "block_order": [
-        "nl_heading",
-        "nl_text",
-        "nl_form"
-      ],
-      "settings": {
-        "color_scheme": "scheme-3",
-        "full_width": true,
-        "padding_top": 52,
-        "padding_bottom": 52
-      }
+      "block_order": ["nl_heading", "nl_text", "nl_form"]
     }
   },
-  "order": [
-    "slideshow",
-    "marquee",
-    "collection_list",
-    "features",
-    "brand_story",
-    "featured_collection",
-    "cta_banner",
-    "newsletter"
-  ]
+  "order": ["hero", "categories", "collage_1", "marquee", "featured_collection", "collage_2", "brand_banner", "newsletter"]
 }
