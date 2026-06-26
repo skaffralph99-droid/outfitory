@@ -1,53 +1,104 @@
 {
   "sections": {
-    "hero_banner": {
+    "slideshow": {
+      "type": "slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "counter",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "show_text_below": false,
+        "accessibility_info": "Slideshow"
+      },
+      "blocks": {
+        "slide_1": {
+          "type": "slide",
+          "settings": {
+            "heading": "NEW SEASON",
+            "heading_size": "h0",
+            "subheading": "Curated pieces for the modern woman",
+            "button_label": "SHOP NOW",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 20,
+            "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_2": {
+          "type": "slide",
+          "settings": {
+            "heading": "DRESS BOLD",
+            "heading_size": "h0",
+            "subheading": "Fashion for the bold at heart",
+            "button_label": "VIEW COLLECTION",
+            "link": "shopify:\/\/collections\/dresses",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 20,
+            "color_scheme": "scheme-4",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_3": {
+          "type": "slide",
+          "settings": {
+            "heading": "STAY MINIMAL",
+            "heading_size": "h0",
+            "subheading": "Quality over quantity, always",
+            "button_label": "EXPLORE",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 20,
+            "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": ["slide_1", "slide_2", "slide_3"]
+    },
+    "marquee": {
       "type": "rich-text",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-1",
         "full_width": true,
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 20,
+        "padding_bottom": 20
       },
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "OUTFITORY",
-            "heading_size": "h0"
-          }
-        },
-        "subtext": {
+        "marquee_text": {
           "type": "text",
           "settings": {
-            "text": "<p>Fashion for the bold at heart. Build your capsule collection.</p>"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/collections\/all",
-            "button_style_secondary": false
+            "text": "<p>FREE SHIPPING OVER $100 — CASH ON DELIVERY — NEW ARRIVALS WEEKLY — FREE SHIPPING OVER $100 — CASH ON DELIVERY — NEW ARRIVALS WEEKLY</p>"
           }
         }
       },
-      "block_order": ["heading", "subtext", "button"]
+      "block_order": ["marquee_text"]
     },
     "collection_list": {
       "type": "collection-list",
       "settings": {
         "title": "SHOP BY CATEGORY",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "image_ratio": "portrait",
         "columns_desktop": 3,
         "color_scheme": "scheme-1",
         "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 52,
-        "padding_bottom": 52
+        "padding_top": 60,
+        "padding_bottom": 60
       },
       "blocks": {
         "col_dresses": {
@@ -77,37 +128,172 @@
       },
       "block_order": ["col_dresses", "col_pants", "col_skirts", "col_sets", "col_jackets", "col_shirts"]
     },
-    "brand_text": {
-      "type": "rich-text",
+    "features": {
+      "type": "multicolumn",
       "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 44
+      },
+      "blocks": {
+        "f1": {
+          "type": "column",
+          "settings": {
+            "title": "FREE SHIPPING",
+            "text": "<p>On all orders over $100</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "f2": {
+          "type": "column",
+          "settings": {
+            "title": "CASH ON DELIVERY",
+            "text": "<p>Pay when you receive</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "f3": {
+          "type": "column",
+          "settings": {
+            "title": "PREMIUM QUALITY",
+            "text": "<p>Curated fabrics & finishes</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "f4": {
+          "type": "column",
+          "settings": {
+            "title": "EASY RETURNS",
+            "text": "<p>Hassle-free exchanges</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": ["f1", "f2", "f3", "f4"]
+    },
+    "brand_story": {
+      "type": "image-with-text",
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
         "desktop_content_position": "center",
-        "content_alignment": "center",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-1",
-        "full_width": false,
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 60,
         "padding_bottom": 60
       },
       "blocks": {
-        "heading2": {
+        "bs_heading": {
           "type": "heading",
           "settings": {
-            "heading": "DRESS BOLD. STAY MINIMAL.",
+            "heading": "THE OUTFITORY WAY",
             "heading_size": "h1"
           }
         },
-        "text2": {
+        "bs_text": {
           "type": "text",
           "settings": {
-            "text": "<p>Curated pieces that speak louder than trends. Quality over quantity, always.</p>"
+            "text": "<p>We believe in building a wardrobe, not chasing trends. Every piece in our collection is designed to mix, match, and last. From structured jackets to flowing dresses — each item earns its place in your closet.</p>",
+            "text_style": "body"
+          }
+        },
+        "bs_button": {
+          "type": "button",
+          "settings": {
+            "button_label": "OUR STORY",
+            "button_link": "",
+            "button_style_secondary": true
           }
         }
       },
-      "block_order": ["heading2", "text2"]
+      "block_order": ["bs_heading", "bs_text", "bs_button"]
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "BESTSELLERS",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "enable_quick_add": true,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "cta_banner": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 80
+      },
+      "blocks": {
+        "cta_heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "YOUR STYLE. YOUR STORY.",
+            "heading_size": "h0"
+          }
+        },
+        "cta_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover pieces that define you.</p>"
+          }
+        },
+        "cta_button": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP ALL",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": ["cta_heading", "cta_text", "cta_button"]
     },
     "newsletter": {
       "type": "newsletter",
       "settings": {
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-3",
         "full_width": true,
         "padding_top": 52,
         "padding_bottom": 52
@@ -134,5 +320,5 @@
       "block_order": ["nl_heading", "nl_text", "nl_form"]
     }
   },
-  "order": ["hero_banner", "collection_list", "brand_text", "newsletter"]
+  "order": ["slideshow", "marquee", "collection_list", "features", "brand_story", "featured_collection", "cta_banner", "newsletter"]
 }
