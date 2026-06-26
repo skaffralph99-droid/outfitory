@@ -107,7 +107,7 @@
         "marquee_text": {
           "type": "text",
           "settings": {
-            "text": "<p>FREE SHIPPING OVER $100 — CASH ON DELIVERY — NEW ARRIVALS WEEKLY — FREE SHIPPING OVER $100 — CASH ON DELIVERY — NEW ARRIVALS WEEKLY</p>"
+            "text": "<p>FREE SHIPPING OVER $100 — CASH ON DELIVERY — NEW ARRIVALS WEEKLY</p>"
           }
         }
       },
